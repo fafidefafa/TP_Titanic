@@ -5,4 +5,3 @@ survival_rate <- function(df, group_var) {
   
   # Extract and return just the survival ("yes") column
   return(rates[, "yes"])
-}
